@@ -16,14 +16,21 @@ namespace gertrude_bot.commands
 
         public async Task Help(CommandContext context)
         {
-            var helpEmbed = new DiscordEmbedBuilder
+            if (context.Guild.Id == 615673301184020505 && context.Channel.Id == 1142230984889225327)
             {
-                Title = "Command List:",
-                Description = $"``!help``: Produces a list of all commands.\n\n**-------------------------------------------**\n\n``!hello``: Say hello to Meemaw.\n(ALTERNATE ALIASES: ``!hi``, ``!greeting``, ``!greetings``)\n\n``!quotemattie``: Produces a quote recorded in Mattie's quote channel.\n(ALTERNATE ALIASES: ``!quote-eguy``, ``!quoteegg``, ``!quote-egg``)\n\n``!quotesky``: Produces a quote recorded in Sky's quote channel.\n(ALTERNATE ALIASES: ``!quote-sky``, ``!quoteski``, ``!quote-ski``)\n\n``!quotedadpro``: Produces a quote recorded in Dadpro's quote channel.\n(ALTERNATE ALIASES: ``!quote-dadpro``, ``!quoteidioter``, ``!quote-idioter``, ``!quotebritish``, ``!quote-british``)\n\n``!quoteyeetman``: Produces a quote recorded in Yeetman's quote channel.\n(ALTERNATE ALIASES: ``!quote-yeetman``, ``!quoteyeet``, ``!quote-yeet``)\n\n``!add [num 1] [num 2]``: Adds two numbers of the user's choosing. (Works with decimals!)\n(ALTERNATE ALIASES: ``!addition``, ``!plus``, ``!+``)\n\n``!subtract [num 1] [num 2]``: Subtracts two numbers of the user's choosing. (Works with decimals!)\n(ALTERNATE ALIASES: ``!subtraction``, ``!sub``, ``!minus``, ``!-``)\n\n``!multiply [num 1] [num 2]``: Multiplies two numbers of the user's choosing. (Works with decimals!)\n(ALTERNATE ALIASES: ``!multiplication``, ``!times``, ``!x``, ``!*``)\n\n``!divide [num 1] [num 2]``: Divides two numbers of the user's choosing. (Works with decimals!)\n(ALTERNATE ALIASES: ``!division``, ``!divideby``, ``!/``)\n\n``!findremainder [num 1] [num 2]``: Divides and finds the remainder of two numbers of the user's choosing. (Works with decimals!)\n(ALTERNATE ALIASES: ``!remainder``, ``!modulo``, ``!%``)\n",
-                Color = DiscordColor.Grayple
-            };
-            
-            await context.Channel.SendMessageAsync(embed: helpEmbed);
+                var helpEmbed = new DiscordEmbedBuilder
+                {
+                    Title = "Command List:",
+                    Description = $"``!help``: Produces a list of all commands.\n\n**-------------------------------------------**\n\n``!hello``: Say hello to Meemaw.\n(ALTERNATE ALIASES: ``!hi``, ``!greeting``, ``!greetings``)\n\n``!quotemattie``: Produces a quote recorded in Mattie's quote channel.\n(ALTERNATE ALIASES: ``!quote-eguy``, ``!quoteegg``, ``!quote-egg``)\n\n``!quotesky``: Produces a quote recorded in Sky's quote channel.\n(ALTERNATE ALIASES: ``!quote-sky``, ``!quoteski``, ``!quote-ski``)\n\n``!quotedadpro``: Produces a quote recorded in Dadpro's quote channel.\n(ALTERNATE ALIASES: ``!quote-dadpro``, ``!quoteidioter``, ``!quote-idioter``, ``!quotebritish``, ``!quote-british``)\n\n``!quoteyeetman``: Produces a quote recorded in Yeetman's quote channel.\n(ALTERNATE ALIASES: ``!quote-yeetman``, ``!quoteyeet``, ``!quote-yeet``)\n\n``!add [num 1] [num 2]``: Adds two numbers of the user's choosing. (Works with decimals!)\n(ALTERNATE ALIASES: ``!addition``, ``!plus``, ``!+``)\n\n``!subtract [num 1] [num 2]``: Subtracts two numbers of the user's choosing. (Works with decimals!)\n(ALTERNATE ALIASES: ``!subtraction``, ``!sub``, ``!minus``, ``!-``)\n\n``!multiply [num 1] [num 2]``: Multiplies two numbers of the user's choosing. (Works with decimals!)\n(ALTERNATE ALIASES: ``!multiplication``, ``!times``, ``!x``, ``!*``)\n\n``!divide [num 1] [num 2]``: Divides two numbers of the user's choosing. (Works with decimals!)\n(ALTERNATE ALIASES: ``!division``, ``!divideby``, ``!/``)\n\n``!findremainder [num 1] [num 2]``: Divides and finds the remainder of two numbers of the user's choosing. (Works with decimals!)\n(ALTERNATE ALIASES: ``!remainder``, ``!modulo``, ``!%``)\n",
+                    Color = DiscordColor.Grayple
+                };
+
+                await context.Channel.SendMessageAsync(embed: helpEmbed);
+            }
+            else
+            {
+                return;
+            }
         }
 
 
