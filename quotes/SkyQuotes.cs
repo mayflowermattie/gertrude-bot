@@ -13,7 +13,7 @@ namespace gertrude_bot.quotes
             "\"Hi, guys!\"\n- Sky: 2019",
             "\"I don't need Nemesis earraping me while he is raping me.\"\n- Sky: 10/03/2021",
             "\"I'm so glad Stephen Hawking taught me that-- *Wii crash sound*\"\n- Sky: 10/03/2021",
-            "\"That's good to know but when are you coming out?\"\n- Sky: 10/06/2021",
+            "\"That's good to know, but when are you coming out?\"\n- Sky: 10/06/2021",
             "\"Spit on me vommy mommy, SEE IF I CARE.\"\n- Sky: 10/09/2021",
             "\"Put Odyssey in his place. Put :clap: the :clap: dog :clap: in :clap: the :clap: kennel :clap:.\"\n- Sky: 10/25/2021",
             "\"Why is Dwight always sucking his fingers? He should be sucking me instead.\"\n- Sky: 10/25/2021",
