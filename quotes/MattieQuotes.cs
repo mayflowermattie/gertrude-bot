@@ -61,7 +61,7 @@ namespace gertrude_bot.quotes
             "\"So far it feels kinda good.\"\n- Mattie: 01/14/2021",
             "\"YES, KEEP GOING, KEEP GOING!\"\n- Mattie: 01/15/2021",
             "\"My arm's really gonna hurt after this...\"\n- Mattie: 01/19/2021",
-            "\"HISS. HISSSSSSSSSS \"\n- Mattie: 01/27/2021",
+            "\"HISS. HISSSSSSSSSS\"\n- Mattie: 01/27/2021",
             "\"The number 110 doesn't exist.\"\n- Mattie: 02/06/2021",
             "\"Greetings, my acquaintance in which is made out of blood and muscle\nin a miraculous fashion that is partially from stardust.\"\n- Mattie: 02/22/2021",
             "\"Did you break Reinhardt's turret?\"\n- Mattie: 02/13/2021",
