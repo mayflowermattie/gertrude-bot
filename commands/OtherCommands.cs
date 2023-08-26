@@ -193,6 +193,5 @@ namespace gertrude_bot.commands
                 return;
             }
         }
-
     }
 }

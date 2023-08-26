@@ -30,7 +30,6 @@ namespace gertrude_bot.quotes
             "\"Ugh, you vored me.\"\n- Sky: 05/24/2022",
             "\"If it breathes, I can probably think of devious things I'd like to do to it.\"\n- Sky: 06/06/2022",
             "\"9 * 9 = 31, right?\"\n- Sky: 06/13/2022",
-            "\"I hope Eguy gets someone pregnant.\"\n- Sky: 06/17/2022",
             "\"340 + 30 = 360.\"\n- Sky: 06/18/2022",
             "\"Go retrieve the ball for me.\"\n- Sky: 06/28/2022",
             "\"I don't CARE if you were 6, you should be getting that bag.\"\n- Sky: 07/10/2022",
