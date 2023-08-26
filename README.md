@@ -1,4 +1,4 @@
-# Grandma Gertrude v1!
+# Grandma Gertrude Bot!
 
 This is just a Discord bot made for my friend's server that I did as a small project. :)
 
