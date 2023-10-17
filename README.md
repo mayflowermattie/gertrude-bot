@@ -1,4 +1,4 @@
-# Grandma Gertrude v1!
+# Grandma Gertrude Bot!
 
 This is just a Discord bot made for my friend's server that I did as a small project. :)
 
@@ -38,3 +38,8 @@ https://www.youtube.com/playlist?list=PLcpUxmcrEm_Bn4K-kcE9ebsQPvNcR8KZx
 
 - !findremainder [num 1] [num 2]: Divides and finds the remainder of two numbers of the user's choosing. (Works with decimals!)
 (ALTERNATE ALIASES: !remainder, !modulo, !%)
+
+- !say: Mimics a message from the user and sends it in the current channel.
+(ALTERNATE ALIASES: !mimic, !parrot, !speak, !talk)
+
+- !ihateyou: secret :3
